@@ -27,7 +27,7 @@ Customer churn costs telecom companies revenue. This project identifies the cust
 - Key finding: [Customers with Electronic Check Payment, Fiber Optic Internet, Short Tenure, High Monthly Charges increases the Churned Probability with respect to those customers with Two Years Contract have less Churned Probability]
 
 ## Tools
-Python, Pandas, Matplotlib, [scikit-learn]
+Python, Pandas, Matplotlib, Scikit-learn
 
 ## How to run
 Download the notebook and the CSV into the same folder, then open the notebook in Jupyter or Google Colab and run all cells.
