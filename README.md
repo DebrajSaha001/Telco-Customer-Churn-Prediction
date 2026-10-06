@@ -17,10 +17,10 @@ Customer churn costs telecom companies revenue. This project identifies the cust
    4. Encoded the Churn target as binary 0 / 1]
 2. Exploratory analysis: churn compared across [Contract Type, Tenure, Monthly Charges, Internet Type]
 3. Encoding of categorical features
-4. Classification model: [
+4. Classification model:
      1. Linear Regression
      2. Random Forest
-     3. XGBoost]
+     3. XGBoost
 
 ## Results
 - Model: Logistic Regression, ROC-AUC: [0.835], F1-Score: [0.611] 
