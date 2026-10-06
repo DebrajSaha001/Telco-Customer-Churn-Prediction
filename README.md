@@ -10,14 +10,21 @@ Customer churn costs telecom companies revenue. This project identifies the cust
 - Target: whether the customer churned (Yes/No)
 
 ## Method
-1. Data cleaning: [what you fixed, e.g., converted TotalCharges to numeric and handled blanks]
-2. Exploratory analysis: churn compared across [contract type, tenure, monthly charges]
+1. Data cleaning: [
+   1 .Converted TotalCharges from text to numeric
+   2. Filled 11 blank records (tenure = 0) with 0
+   3. Dropped the non-predictive customerID column
+   4. Encoded the Churn target as binary 0 / 1]
+2. Exploratory analysis: churn compared across [Contract Type, Tenure, Monthly Charges, Internet Type]
 3. Encoding of categorical features
-4. Classification model: [model name]
+4. Classification model: [
+     1. Linear Regression
+     2. Random Forest
+     3. XGBoost]
 
 ## Results
-- [Metric]: [value]
-- Key finding: [one insight, e.g., month-to-month customers churned at X% vs Y% on annual contracts]
+- Model: Logistic Regression, ROC-AUC: [0.835], F1-Score: [0.611] 
+- Key finding: [Customers with Electronic Check Payment, Fiber Optic Internet, Short Tenure, High Monthly Charges increases the Churned Probability with respect to those customers with Two Years Contract have less Churned Probability]
 
 ## Tools
 Python, Pandas, Matplotlib, [scikit-learn]
